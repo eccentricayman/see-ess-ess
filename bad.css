@@ -1,0 +1,25 @@
+body {
+	background-image: url("http://www.hdwallpapers.in/download/windows_xp_bliss-1920x1080.jpg");
+}
+
+* {
+	border: 2px solid lime;
+	font-family: "Comic Sans MS";
+	font-size: 36px;
+}
+
+.navzone {
+	background-color: red;
+}
+
+.prose {
+	color: yellow;
+}
+
+li:hover, a:hover {
+	background-color: magenta;
+}
+
+.extreme {
+	color: blue;
+}
