@@ -1,0 +1,130 @@
+body {
+	padding: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin: 0px;
+	font-size: 16px;
+    text-align: justify;
+	font-family: "Open Sans", sans-serif;
+	background-color: #DDDDDD;
+}
+
+.extreme {
+	text-align: center;
+}
+
+h1 {
+	padding-top: 65px;
+	font-size: 36px;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	padding-bottom: 50px;
+	font-family: "Raleway", serif;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+ul {
+    
+}
+
+h2 {
+	font-size: 24px;
+	text-align: center;
+	text-decoration: underline;
+	font-family: "Raleway", serif;
+	padding-top: 40px;
+}
+
+h3 {
+	font-family: 'Raleway', serif;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	display: inline-block;
+	width: auto;
+	z-index: 1000;
+	top: 2%;
+	left: 2%;
+	text-transform: uppercase;
+}
+
+.navzone > ul {
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+.navzone > ul >li, .navzone > h3 {
+	float: right;
+	display: block;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navzone > h3 {
+    float: left;
+    display: inline-block;
+    position: fixed;
+    padding: 0;
+    padding-top: 5px;
+    margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.navzone > ul > li:hover, .navzone > ul > li:hover {
+    transition: 0.5s background-color;
+    color: #FFF;
+	background-color: #333;
+}
+
+.navzone > ul > li > a {
+    transition: 0.5s color;
+    color: inherit;
+}
+
+#tehlulz:hover {
+    font-weight: bold;
+	transition: 0.5s;
+	background-color: red;
+}
+
+.parallax > h2 {
+    font-family: Arial;
+    font-style: italic;
+    text-decoration: none;
+    position: absolute;
+    top: 25%;
+    left: 50px;
+    right: 50px;
+    color: #FFF;
+}
+
+.parallax {
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
